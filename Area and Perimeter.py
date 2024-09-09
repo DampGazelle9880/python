@@ -10,7 +10,7 @@ class Circle():
 obj = Circle(11)
     
 area_cir = obj.area()
-print(f"The area of the circle is: {area_cir.2f}") 
+print(f"The area of the circle is: {area_cir.f}") 
 perimeter_cir = obj.perimeter()
-print(f"The perimeter of circle is:{perimeter_cir.2f}")
+print(f"The perimeter of circle is:{perimeter_cir.f}")
    
