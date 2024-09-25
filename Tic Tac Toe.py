@@ -53,6 +53,7 @@ def game():
                 print("\nGame Over.")
                 print("*** " + turn + " won. ***")
                 break
+                
             elif theboard['2'] == theboard['5'] == theboard['8'] != ' ':  
                 printBoard(theboard)
                 print("\nGame Over.")
