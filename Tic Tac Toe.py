@@ -90,5 +90,5 @@ def game():
             theboard[key] = " "
         game()
         
-if __name__ == "__main__":
-    game()
+if __name__ == "__main__":99
+game()
