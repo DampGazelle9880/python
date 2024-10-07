@@ -2,10 +2,10 @@ import pygame
 import random
 
 SCREEN_WIDHT, SCREEN_HEIGHT = 500,400
-MOVEMENT_SPEED = 5
+MOVEMENT_SPEED = 3
 FONT_SIZE = 72
 pygame.init()
-background_image = pygame.transform.scale(pygame.image.load("download.jpg"),(SCREEN_WIDHT,SCREEN_HEIGHT))
+background_image = pygame.transform.scale(pygame.image.load(".webp"),(SCREEN_WIDHT,SCREEN_HEIGHT))
 font = pygame.font.SysFont("Times New Roman",FONT_SIZE)
 class Sprite(pygame.sprite.Sprite):
     def __init__(self,color,height,width):
