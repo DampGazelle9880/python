@@ -40,7 +40,7 @@ for _ in range(num_of_enemies):
     enemy_y_change.append(ENEMY_SPEED_Y)
 
 bullet_img = pygame.image.load('bullet.png')
-bullet_x = 0
+bullet_x = PLAYER_START_Y
 bullet_y = PLAYER_START_Y
 bullet_x_change = 0
 bullet_y_change = BULLET_SPEED_Y
