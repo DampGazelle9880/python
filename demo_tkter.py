@@ -5,7 +5,7 @@ root.geometry("400x300")
 
 lbl = Label(root,text="Hello",fg="white",bg="#072F5F",height="1",width="300")
 lbl.pack()
-name_label = root,text="Full Name?",bg="#3895BD"
+name_label = root,text= "Full Name?", bg= "#3895BD"
 name_label.pack()
 name_entry = Entry(root)
 name_entry.pack()
