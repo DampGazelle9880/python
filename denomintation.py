@@ -14,7 +14,7 @@ label1 = Label(root,text="Hey user! Welcome to denomintation application.",bg="l
 label1.place(relx=0.5,y=340,anchor=CENTER)
 def msg():
     msgbox = messagebox.showinfo("Alert!","Do you want to calculate the denomintation count?")
-    if msgbox == 'oK':
+    if msgbox == 'ok':
         topwin()
 btn1 = Button(root,text="Let's get started!",command=msg,bg="brown",fg="white")
 btn1.place(x=360,y=360)
