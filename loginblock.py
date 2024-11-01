@@ -13,7 +13,7 @@ pass_entry = Entry(frame)
 def display():
     name = name_entry.get()
     greet = "Hello!" + name
-    message = "\nCongratultions on your new account!"
+    message = "\nCongratultions on your new account!\n"
     textbox.insert(END,greet)
     textbox.insert(END,message)
 textbox = Text(root,bg="#BEBEBE",fg='black',height=5,width=50)
