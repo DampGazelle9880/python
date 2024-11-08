@@ -43,7 +43,7 @@ bullet_img = pygame.image.load('bullet.png')
 bullet_x = PLAYER_START_Y
 bullet_y = PLAYER_START_Y
 bullet_x_change = BULLET_SPEED_Y
-bullet_y_change = 30
+bullet_y_change = 10
 bullet_state = "ready"
 
 score_value = 0
