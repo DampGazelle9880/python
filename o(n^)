@@ -1,0 +1,14 @@
+def OneTime(n):
+    iteration = 0
+    for i in range(1,n+1):
+        for j in range(1,n+1):
+            print("^",end=" ")
+            iteration+=1
+        print()
+    print("When n is",n,"iterations -", iteration)
+OneTime(7)
+OneTime(10)
+OneTime(20)
+print("\nWith every 'n' the tune taken and iterations will increase linearly")
+        
+    
